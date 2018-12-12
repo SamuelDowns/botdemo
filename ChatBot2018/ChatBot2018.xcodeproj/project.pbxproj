@@ -1,0 +1,365 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B5A01E8221C06A3800F77D2F /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A01E8121C06A3800F77D2F /* AccountViewController.swift */; };
+		B5FDD16621C04BC500E7E712 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FDD16521C04BC500E7E712 /* AppDelegate.swift */; };
+		B5FDD16821C04BC500E7E712 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FDD16721C04BC500E7E712 /* ViewController.swift */; };
+		B5FDD16B21C04BC500E7E712 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5FDD16921C04BC500E7E712 /* Main.storyboard */; };
+		B5FDD16D21C04BC600E7E712 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5FDD16C21C04BC600E7E712 /* Assets.xcassets */; };
+		B5FDD17021C04BC600E7E712 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5FDD16E21C04BC600E7E712 /* LaunchScreen.storyboard */; };
+		B5FDD17821C04C1500E7E712 /* ZapposMain.PNG in Resources */ = {isa = PBXBuildFile; fileRef = B5FDD17721C04C1500E7E712 /* ZapposMain.PNG */; };
+		B5FDD17C21C0526900E7E712 /* dressShoes.PNG in Resources */ = {isa = PBXBuildFile; fileRef = B5FDD17A21C0526900E7E712 /* dressShoes.PNG */; };
+		B5FDD17D21C0526900E7E712 /* customerService.PNG in Resources */ = {isa = PBXBuildFile; fileRef = B5FDD17B21C0526900E7E712 /* customerService.PNG */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B5A01E8121C06A3800F77D2F /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		B5FDD16221C04BC500E7E712 /* ChatBot2018.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatBot2018.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5FDD16521C04BC500E7E712 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B5FDD16721C04BC500E7E712 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B5FDD16A21C04BC500E7E712 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B5FDD16C21C04BC600E7E712 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B5FDD16F21C04BC600E7E712 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B5FDD17121C04BC600E7E712 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5FDD17721C04C1500E7E712 /* ZapposMain.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ZapposMain.PNG; sourceTree = "<group>"; };
+		B5FDD17A21C0526900E7E712 /* dressShoes.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dressShoes.PNG; sourceTree = "<group>"; };
+		B5FDD17B21C0526900E7E712 /* customerService.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = customerService.PNG; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5FDD15F21C04BC500E7E712 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B5FDD15921C04BC500E7E712 = {
+			isa = PBXGroup;
+			children = (
+				B5FDD16421C04BC500E7E712 /* ChatBot2018 */,
+				B5FDD16321C04BC500E7E712 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B5FDD16321C04BC500E7E712 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5FDD16221C04BC500E7E712 /* ChatBot2018.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5FDD16421C04BC500E7E712 /* ChatBot2018 */ = {
+			isa = PBXGroup;
+			children = (
+				B5FDD17921C0523800E7E712 /* Images */,
+				B5FDD16521C04BC500E7E712 /* AppDelegate.swift */,
+				B5FDD16721C04BC500E7E712 /* ViewController.swift */,
+				B5FDD16921C04BC500E7E712 /* Main.storyboard */,
+				B5FDD16C21C04BC600E7E712 /* Assets.xcassets */,
+				B5FDD16E21C04BC600E7E712 /* LaunchScreen.storyboard */,
+				B5FDD17121C04BC600E7E712 /* Info.plist */,
+				B5A01E8121C06A3800F77D2F /* AccountViewController.swift */,
+			);
+			path = ChatBot2018;
+			sourceTree = "<group>";
+		};
+		B5FDD17921C0523800E7E712 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				B5FDD17B21C0526900E7E712 /* customerService.PNG */,
+				B5FDD17A21C0526900E7E712 /* dressShoes.PNG */,
+				B5FDD17721C04C1500E7E712 /* ZapposMain.PNG */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5FDD16121C04BC500E7E712 /* ChatBot2018 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5FDD17421C04BC600E7E712 /* Build configuration list for PBXNativeTarget "ChatBot2018" */;
+			buildPhases = (
+				B5FDD15E21C04BC500E7E712 /* Sources */,
+				B5FDD15F21C04BC500E7E712 /* Frameworks */,
+				B5FDD16021C04BC500E7E712 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChatBot2018;
+			productName = ChatBot2018;
+			productReference = B5FDD16221C04BC500E7E712 /* ChatBot2018.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5FDD15A21C04BC500E7E712 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Samuel Downs";
+				TargetAttributes = {
+					B5FDD16121C04BC500E7E712 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = B5FDD15D21C04BC500E7E712 /* Build configuration list for PBXProject "ChatBot2018" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B5FDD15921C04BC500E7E712;
+			productRefGroup = B5FDD16321C04BC500E7E712 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5FDD16121C04BC500E7E712 /* ChatBot2018 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5FDD16021C04BC500E7E712 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5FDD17021C04BC600E7E712 /* LaunchScreen.storyboard in Resources */,
+				B5FDD16D21C04BC600E7E712 /* Assets.xcassets in Resources */,
+				B5FDD16B21C04BC500E7E712 /* Main.storyboard in Resources */,
+				B5FDD17D21C0526900E7E712 /* customerService.PNG in Resources */,
+				B5FDD17821C04C1500E7E712 /* ZapposMain.PNG in Resources */,
+				B5FDD17C21C0526900E7E712 /* dressShoes.PNG in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5FDD15E21C04BC500E7E712 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5FDD16821C04BC500E7E712 /* ViewController.swift in Sources */,
+				B5FDD16621C04BC500E7E712 /* AppDelegate.swift in Sources */,
+				B5A01E8221C06A3800F77D2F /* AccountViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B5FDD16921C04BC500E7E712 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5FDD16A21C04BC500E7E712 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B5FDD16E21C04BC600E7E712 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5FDD16F21C04BC600E7E712 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B5FDD17221C04BC600E7E712 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B5FDD17321C04BC600E7E712 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B5FDD17521C04BC600E7E712 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BX9DVW7ET4;
+				INFOPLIST_FILE = ChatBot2018/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.moxiesoft.ChatBot2018;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B5FDD17621C04BC600E7E712 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BX9DVW7ET4;
+				INFOPLIST_FILE = ChatBot2018/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.moxiesoft.ChatBot2018;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5FDD15D21C04BC500E7E712 /* Build configuration list for PBXProject "ChatBot2018" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5FDD17221C04BC600E7E712 /* Debug */,
+				B5FDD17321C04BC600E7E712 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5FDD17421C04BC600E7E712 /* Build configuration list for PBXNativeTarget "ChatBot2018" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5FDD17521C04BC600E7E712 /* Debug */,
+				B5FDD17621C04BC600E7E712 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B5FDD15A21C04BC500E7E712 /* Project object */;
+}
