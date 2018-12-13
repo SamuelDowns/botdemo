@@ -70,7 +70,7 @@ class BotChatViewController: UIViewController, UITableViewDelegate, UITableViewD
 
     let botResponses : [String : [String]] =
         ["trackOrder" :
-            ["Your order was sent on 12/10."],
+            ["Your order (#123-09) will ship on 12/18."],
         "account" :
             ["Would you like me to reset your password?",
             "I reset the password.  Did that work?",
