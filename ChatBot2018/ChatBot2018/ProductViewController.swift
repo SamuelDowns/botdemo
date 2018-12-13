@@ -131,6 +131,10 @@ class ProductViewController: UIViewController, UITextFieldDelegate {
             presentedViewController.modalPresentationStyle = UIModalPresentationStyle.fullScreen;
             presentedViewController.modalTransitionStyle = .crossDissolve
 
+            let controller = presentedViewController as! BotChatViewController
+
+            controller.assignIntent(intent: text)
+
             self.present(presentedViewController, animated: true, completion: nil)
         }
     }
