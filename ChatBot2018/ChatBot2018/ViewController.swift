@@ -8,6 +8,11 @@
 
 import UIKit
 
+//  Global definition
+let TAP_OFF_DELAY = 0.6
+let OFFER_DELAY = 1.0
+
+
 class ViewController: UIViewController {
 
     override func viewDidLoad() {

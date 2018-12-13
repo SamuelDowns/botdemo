@@ -1,24 +1,24 @@
 //
-//  AccountViewController.swift
+//  ProductViewController.swift
 //  ChatBot2018
 //
-//  Created by Samuel Downs on 12/11/18.
+//  Created by Sam Downs on 12/12/18.
 //  Copyright © 2018 Samuel Downs. All rights reserved.
 //
 
 import UIKit
 
-class AccountViewController: UIViewController, UITextFieldDelegate {
+class ProductViewController: UIViewController, UITextFieldDelegate {
 
     @IBOutlet weak var offerView: UIView!
-    
+
     @IBOutlet weak var questionField: UITextField!
 
     var offerTimer : Timer?
 
     var tapOffActive = false
-    
-    
+
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -26,20 +26,20 @@ class AccountViewController: UIViewController, UITextFieldDelegate {
 
         questionField.delegate = self
     }
-    
+
 
     override func viewWillAppear(_ animated: Bool) {
         //  Reset the offer view - off screen
         var frame = offerView.frame
-        
+
         frame.origin.y = -frame.size.height
         offerView.frame = frame
-        
+
         offerTimer = Timer.scheduledTimer(withTimeInterval: OFFER_DELAY, repeats: false) { timer in
             self.moveOffer(moveIn: true)
         }
     }
-    
+
     override func viewWillDisappear(_ animated: Bool) {
         offerTimer?.invalidate()
     }

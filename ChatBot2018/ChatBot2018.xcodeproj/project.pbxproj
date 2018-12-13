@@ -8,18 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		B5A01E8221C06A3800F77D2F /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A01E8121C06A3800F77D2F /* AccountViewController.swift */; };
+		B5C75D9921C1BC3E00377A24 /* home.PNG in Resources */ = {isa = PBXBuildFile; fileRef = B5C75D9621C1BC3E00377A24 /* home.PNG */; };
+		B5C75D9A21C1BC3E00377A24 /* account.PNG in Resources */ = {isa = PBXBuildFile; fileRef = B5C75D9721C1BC3E00377A24 /* account.PNG */; };
+		B5C75D9B21C1BC3E00377A24 /* product.PNG in Resources */ = {isa = PBXBuildFile; fileRef = B5C75D9821C1BC3E00377A24 /* product.PNG */; };
+		B5C75D9E21C1E19F00377A24 /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C75D9D21C1E19F00377A24 /* ProductViewController.swift */; };
 		B5FDD16621C04BC500E7E712 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FDD16521C04BC500E7E712 /* AppDelegate.swift */; };
 		B5FDD16821C04BC500E7E712 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FDD16721C04BC500E7E712 /* ViewController.swift */; };
 		B5FDD16B21C04BC500E7E712 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5FDD16921C04BC500E7E712 /* Main.storyboard */; };
 		B5FDD16D21C04BC600E7E712 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5FDD16C21C04BC600E7E712 /* Assets.xcassets */; };
 		B5FDD17021C04BC600E7E712 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5FDD16E21C04BC600E7E712 /* LaunchScreen.storyboard */; };
-		B5FDD17821C04C1500E7E712 /* ZapposMain.PNG in Resources */ = {isa = PBXBuildFile; fileRef = B5FDD17721C04C1500E7E712 /* ZapposMain.PNG */; };
-		B5FDD17C21C0526900E7E712 /* dressShoes.PNG in Resources */ = {isa = PBXBuildFile; fileRef = B5FDD17A21C0526900E7E712 /* dressShoes.PNG */; };
-		B5FDD17D21C0526900E7E712 /* customerService.PNG in Resources */ = {isa = PBXBuildFile; fileRef = B5FDD17B21C0526900E7E712 /* customerService.PNG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B5A01E8121C06A3800F77D2F /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		B5C75D9621C1BC3E00377A24 /* home.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.PNG; sourceTree = "<group>"; };
+		B5C75D9721C1BC3E00377A24 /* account.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = account.PNG; sourceTree = "<group>"; };
+		B5C75D9821C1BC3E00377A24 /* product.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = product.PNG; sourceTree = "<group>"; };
+		B5C75D9D21C1E19F00377A24 /* ProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
 		B5FDD16221C04BC500E7E712 /* ChatBot2018.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatBot2018.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5FDD16521C04BC500E7E712 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B5FDD16721C04BC500E7E712 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -27,9 +32,6 @@
 		B5FDD16C21C04BC600E7E712 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B5FDD16F21C04BC600E7E712 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B5FDD17121C04BC600E7E712 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B5FDD17721C04C1500E7E712 /* ZapposMain.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ZapposMain.PNG; sourceTree = "<group>"; };
-		B5FDD17A21C0526900E7E712 /* dressShoes.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dressShoes.PNG; sourceTree = "<group>"; };
-		B5FDD17B21C0526900E7E712 /* customerService.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = customerService.PNG; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 				B5FDD16E21C04BC600E7E712 /* LaunchScreen.storyboard */,
 				B5FDD17121C04BC600E7E712 /* Info.plist */,
 				B5A01E8121C06A3800F77D2F /* AccountViewController.swift */,
+				B5C75D9D21C1E19F00377A24 /* ProductViewController.swift */,
 			);
 			path = ChatBot2018;
 			sourceTree = "<group>";
@@ -77,9 +80,9 @@
 		B5FDD17921C0523800E7E712 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				B5FDD17B21C0526900E7E712 /* customerService.PNG */,
-				B5FDD17A21C0526900E7E712 /* dressShoes.PNG */,
-				B5FDD17721C04C1500E7E712 /* ZapposMain.PNG */,
+				B5C75D9721C1BC3E00377A24 /* account.PNG */,
+				B5C75D9621C1BC3E00377A24 /* home.PNG */,
+				B5C75D9821C1BC3E00377A24 /* product.PNG */,
 			);
 			path = Images;
 			sourceTree = "<group>";
@@ -142,12 +145,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5C75D9A21C1BC3E00377A24 /* account.PNG in Resources */,
+				B5C75D9B21C1BC3E00377A24 /* product.PNG in Resources */,
+				B5C75D9921C1BC3E00377A24 /* home.PNG in Resources */,
 				B5FDD17021C04BC600E7E712 /* LaunchScreen.storyboard in Resources */,
 				B5FDD16D21C04BC600E7E712 /* Assets.xcassets in Resources */,
 				B5FDD16B21C04BC500E7E712 /* Main.storyboard in Resources */,
-				B5FDD17D21C0526900E7E712 /* customerService.PNG in Resources */,
-				B5FDD17821C04C1500E7E712 /* ZapposMain.PNG in Resources */,
-				B5FDD17C21C0526900E7E712 /* dressShoes.PNG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -160,6 +163,7 @@
 			files = (
 				B5FDD16821C04BC500E7E712 /* ViewController.swift in Sources */,
 				B5FDD16621C04BC500E7E712 /* AppDelegate.swift in Sources */,
+				B5C75D9E21C1E19F00377A24 /* ProductViewController.swift in Sources */,
 				B5A01E8221C06A3800F77D2F /* AccountViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
