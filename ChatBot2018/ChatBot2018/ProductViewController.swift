@@ -29,6 +29,7 @@ class ProductViewController: UIViewController, UITextFieldDelegate {
 
 
     override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
         //  Reset the offer view - off screen
         var frame = offerView.frame
 
@@ -41,6 +42,7 @@ class ProductViewController: UIViewController, UITextFieldDelegate {
     }
 
     override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
         offerTimer?.invalidate()
     }
 
@@ -120,6 +122,17 @@ class ProductViewController: UIViewController, UITextFieldDelegate {
         //  Using the string - start the bot processing
 
         print("startBot : \(text)")
+
+        //  TODO:  How to pass information to the botChatVC?
+
+        if let presentedViewController = self.storyboard?.instantiateViewController(withIdentifier: "BotChatViewController") {
+            presentedViewController.providesPresentationContextTransitionStyle = true
+            presentedViewController.definesPresentationContext = true
+            presentedViewController.modalPresentationStyle = UIModalPresentationStyle.fullScreen;
+            presentedViewController.modalTransitionStyle = .crossDissolve
+
+            self.present(presentedViewController, animated: true, completion: nil)
+        }
     }
 
 }

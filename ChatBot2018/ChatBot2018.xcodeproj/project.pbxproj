@@ -12,6 +12,12 @@
 		B5C75D9A21C1BC3E00377A24 /* account.PNG in Resources */ = {isa = PBXBuildFile; fileRef = B5C75D9721C1BC3E00377A24 /* account.PNG */; };
 		B5C75D9B21C1BC3E00377A24 /* product.PNG in Resources */ = {isa = PBXBuildFile; fileRef = B5C75D9821C1BC3E00377A24 /* product.PNG */; };
 		B5C75D9E21C1E19F00377A24 /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C75D9D21C1E19F00377A24 /* ProductViewController.swift */; };
+		B5C75DA021C2119200377A24 /* BotChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C75D9F21C2119200377A24 /* BotChatViewController.swift */; };
+		B5C75DA321C2204B00377A24 /* AgentHeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C75DA221C2204B00377A24 /* AgentHeaderTableViewCell.swift */; };
+		B5C75DA521C2206D00377A24 /* AgentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C75DA421C2206D00377A24 /* AgentTableViewCell.swift */; };
+		B5C75DA721C2209000377A24 /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C75DA621C2209000377A24 /* UserTableViewCell.swift */; };
+		B5C75DA921C220C400377A24 /* BotHeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C75DA821C220C400377A24 /* BotHeaderTableViewCell.swift */; };
+		B5C75DAB21C2213300377A24 /* LinkTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C75DAA21C2213300377A24 /* LinkTableViewCell.swift */; };
 		B5FDD16621C04BC500E7E712 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FDD16521C04BC500E7E712 /* AppDelegate.swift */; };
 		B5FDD16821C04BC500E7E712 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FDD16721C04BC500E7E712 /* ViewController.swift */; };
 		B5FDD16B21C04BC500E7E712 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5FDD16921C04BC500E7E712 /* Main.storyboard */; };
@@ -25,6 +31,12 @@
 		B5C75D9721C1BC3E00377A24 /* account.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = account.PNG; sourceTree = "<group>"; };
 		B5C75D9821C1BC3E00377A24 /* product.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = product.PNG; sourceTree = "<group>"; };
 		B5C75D9D21C1E19F00377A24 /* ProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
+		B5C75D9F21C2119200377A24 /* BotChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BotChatViewController.swift; sourceTree = "<group>"; };
+		B5C75DA221C2204B00377A24 /* AgentHeaderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgentHeaderTableViewCell.swift; sourceTree = "<group>"; };
+		B5C75DA421C2206D00377A24 /* AgentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgentTableViewCell.swift; sourceTree = "<group>"; };
+		B5C75DA621C2209000377A24 /* UserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
+		B5C75DA821C220C400377A24 /* BotHeaderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BotHeaderTableViewCell.swift; sourceTree = "<group>"; };
+		B5C75DAA21C2213300377A24 /* LinkTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkTableViewCell.swift; sourceTree = "<group>"; };
 		B5FDD16221C04BC500E7E712 /* ChatBot2018.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatBot2018.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5FDD16521C04BC500E7E712 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B5FDD16721C04BC500E7E712 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -45,6 +57,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B5C75DAC21C2214200377A24 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				B5C75DA221C2204B00377A24 /* AgentHeaderTableViewCell.swift */,
+				B5C75DA421C2206D00377A24 /* AgentTableViewCell.swift */,
+				B5C75DA621C2209000377A24 /* UserTableViewCell.swift */,
+				B5C75DA821C220C400377A24 /* BotHeaderTableViewCell.swift */,
+				B5C75DAA21C2213300377A24 /* LinkTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		B5FDD15921C04BC500E7E712 = {
 			isa = PBXGroup;
 			children = (
@@ -73,6 +97,8 @@
 				B5FDD17121C04BC600E7E712 /* Info.plist */,
 				B5A01E8121C06A3800F77D2F /* AccountViewController.swift */,
 				B5C75D9D21C1E19F00377A24 /* ProductViewController.swift */,
+				B5C75D9F21C2119200377A24 /* BotChatViewController.swift */,
+				B5C75DAC21C2214200377A24 /* Cells */,
 			);
 			path = ChatBot2018;
 			sourceTree = "<group>";
@@ -162,8 +188,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5FDD16821C04BC500E7E712 /* ViewController.swift in Sources */,
+				B5C75DA021C2119200377A24 /* BotChatViewController.swift in Sources */,
+				B5C75DA921C220C400377A24 /* BotHeaderTableViewCell.swift in Sources */,
 				B5FDD16621C04BC500E7E712 /* AppDelegate.swift in Sources */,
+				B5C75DA521C2206D00377A24 /* AgentTableViewCell.swift in Sources */,
+				B5C75DAB21C2213300377A24 /* LinkTableViewCell.swift in Sources */,
+				B5C75DA721C2209000377A24 /* UserTableViewCell.swift in Sources */,
 				B5C75D9E21C1E19F00377A24 /* ProductViewController.swift in Sources */,
+				B5C75DA321C2204B00377A24 /* AgentHeaderTableViewCell.swift in Sources */,
 				B5A01E8221C06A3800F77D2F /* AccountViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
